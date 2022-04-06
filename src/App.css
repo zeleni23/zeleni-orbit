@@ -1,0 +1,42 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App
+{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+header
+{
+  display: block;
+  width: 100%;
+  height: 20vh;
+  background-color: red;
+}
+
+aside
+{
+  display: block;
+  flex-grow: 1;
+  height: 60vh;
+  background-color: blue;
+}
+main
+{
+  display: block;
+  flex-grow: 6;
+  height: 60vh;
+  background-color: rgb(253, 253, 0);
+}
+footer
+{
+  display: block;
+  width: 100%;
+  height: 20vh;
+  background-color: green;
+}
